@@ -1,0 +1,345 @@
+------------------ VER 1.5.1 -----------
+Fixed: bug in the style of the products list in some shortcodes
+Fixed: bug in layout setting for the shop archive pages
+Fixed: wrong position of description in categories pages
+Fixed: layout width in the single product page, where there is the sidebar
+Fixed: duplication in product detail pages
+Fixed: product and categories slider shortcode in responsive mode
+Fixed: bug of elastic slider in responsive mode
+
+UPDATED
+css/slider-elastic.css
+inc/theme-options/general-options.php
+inc/widgets/more_projects.php
+inc/jigoshop.php
+inc/fonts.php
+inc/shortcodes-woocommerce.php
+inc/woocommerce.php
+jigoshop/style.css
+woocommerce/single-product/related.php
+woocommerce/single-product/up-sells.php
+woocommerce/style.css
+header.php
+style.css
+
+
+------------------ VER 1.5 -------------
+Fixed: compatibility with WooCommerce 1.6 and major
+Fixed: slider wasn't shown in the shop page when it is a home page
+Fixed: bug with multiple portfolios
+Fixed: bug with pingbacks and trackbacks
+Fixed: share buttons for twitter and facebook in blog posts and for buttons in shop pages
+Fixed: bug in options for headings typography
+Fixed: bug in options for shop buttons colors
+Fixed: position of sale icon in shop pages
+Fixed: tags stripped from the titles of slider elastic
+Fixed: style of 404 template page
+Fixed: border-radius in the shop images
+Fixed: bugs in responsive mode
+Added: dropdown select for the navigation in responsive mode
+Added: sidebar in responsive mode
+Added: new style for the category list in shop page
+Added: option to choose the category image size, in woocommerce settings
+Added: options to show or hide the "View Project" button in portfolio pages
+Added: [share] shortcode
+Updated: languages files
+Updated: LayerSlider plugin version updated
+Updated: woocommerce files templates
+Updated: languages files
+
+
+UPDATED
+core/default-shortcodes/media.php
+core/default-shortcodes/widgets.php
+core/notifier/update-notifier.php
+core/functions-sliders.php
+css/lessthen480.css
+css/lessthen600.css
+css/lessthen960.css
+inc/LayerSlider/*.*
+inc/theme-options/general-options.php
+inc/theme-options/typography-options.php
+inc/colors.php
+inc/fonts.php
+inc/functions-theme.php
+inc/infinity-portfolio.php
+inc/jigoshop.php
+inc/shortcodes.php
+inc/woocommerce.php
+jigoshop/style.css
+js/jquery.custom.js
+languages/default.po
+languages/yiw.pot
+languages/default.mo
+woocommerce/*.*
+404.php
+header.php
+loop-blog-small.php
+loop-blog-elegant.php
+loop-page.php
+portfolio-3cols.php
+portfolio-big_image.php
+single.php
+slider-elastic.php
+style.css
+
+ADDED
+css/flexslider.css
+images/nav-mobile-menu.jpg
+js/Jquery.mobilemenu.js
+
+
+
+
+
+
+------------------ VER 1.4 ---------------
+Fixed: notice with wordpress 3.4
+Fixed: colors options for topbar
+Fixed: typography option for general paragraphs and for blog comments
+Fixed: code mistake in comments list
+Fixed: almost all categories didn't show any categories when there weren't any categories selected in theme options
+Fixed: bug in the sliders, when the theme is installed in a windows server
+Fixed: widget of layerslider
+Fixed: removed sorting dropdown in some shortcodes of shop plugin
+Fixed: size of shop images, that was blurred
+Added: cart hover in the ribbon of the topbar, that you can decide to show or hide in theme options settings 
+Added: archives template for an archive page
+Added: searchform in header, that you can decide to show or hide in theme options settings
+Added: little animation when the products are added to cart in the products list page
+
+
+UPDATED
+archives.php
+core/default-widgets/almost_all_categories.php
+core/notifier/update-notifier.php
+core/functions-sliders.php
+core/functions-template.php
+core/sendemail.php
+core/settings.php
+header.php
+images/icons/search.png
+inc/LayerSlider/layerslider.php
+inc/colors.php
+inc/functions-theme.php
+inc/fonts.php
+inc/shortcodes.php
+inc/theme-options/general-options.php
+inc/woocommerce.php
+jigoshop/style.css
+js/jquery.custom.js
+searchform.php
+style.css
+woocommerce/style.css
+
+ADDED
+images/bg/quick-cart-pattern.png
+
+
+
+
+------------------ VER 1.3.2 -------------
+Fixed: bug in the shop layout pages
+Fixed: stripslashes in the title of slider nivo and layer
+Fixed: color of add to cart button
+Fixed: options to show/hide add to cart button and price tagin the single product page
+Fixed: opening quote in the testimonial slider shortcode
+Added: target attribute in the [button] shortcode
+Added: pinterest icon for social shortcode
+Added: product summary in the product single page
+Added: child theme folder
+Added: category in the [items] shortcode
+Added: ability to add/remove the link in the titles of the testimonial slider
+Updated: the layers slider plugin
+
+UPDATED
+core/shortcodes.php
+core/sendemail.php
+core/functions-template.php
+core/default-shortcodes/content.php
+core/default-shortcodes/widgets.php
+css/slider-layers.php
+inc/theme-options/general-options.php
+inc/colors.php
+inc/shortcodes-woocommerce.php
+inc/shortcodes.php
+inc/woocommerce.php
+inc/LayerSlider/*.*
+woocommerce/shop/wrapper-end.php
+woocommerce/single-product/related.php
+loop-page.php
+slider-minilayers.php
+slider-nivo.php
+style.css
+
+ADDED
+images/icons/small-socials/pinterest.jpg
+images/icons/socials/pinterest.png
+maya-child/*.*
+
+
+
+------------------ VER 1.3.1 -------------
+Fixed: option to change the color of text logo
+Fixed: option for the breadcrumb in the wordpress pages
+Fixed: bug with slashes in the title of the nivo slider
+Fixed: language localization around the theme options
+Added: option to change the text in the map of page header
+Added: sidebar for the widget qTranslate in the topbar
+
+
+UPDATED
+core/notifier/default.xml
+core/theme-options/install/install.php
+core/theme-options/functions-panel.php
+core/theme-options/panel.php
+core/theme-options/yiw-panel.php
+inc/theme-options/general-options.php
+inc/colors.php
+inc/functions-theme.php
+woocommerce/style.css
+map.php
+page.php
+slider-nivo.php
+slider-minilayers.php
+topbar.php
+style.css
+
+ADDED
+images/bg-pagination.png
+
+
+
+------------------ VER 1.3 ---------------          
+Removed: background from images folder and from the list of body backgrounds presets  
+Updated: list of google fonts     
+Fixed: colors options for the shop buttons
+Fixed: warning message shown for the bad widgets retrieving
+Fixed: title was hidden in "Related Products" section, in Jigoshop
+Fixed: bugs with shop pages layout
+Fixed: little bug with ajax request in woocommerce cart widget
+Fixed: style for the variations dropdowns, in the product detail page
+Fixed: active status in the product tab, in product detail page, with jigoshop installed
+Fixed: double fixed-image header in the responsive layout
+Added: options to hide the topbar and the cart in topbar
+Added: the dropdown in the topbar menu
+Added: options for the gallery and portfolio pages
+Added: more filters in the products list in admin panel, with woocommerce installed
+Added: breadcrumbs, that was missing
+Added: layout for the portfolio post detail page
+
+UPDATED
+core/functions-fonts.php
+core/functions-template.php
+core/functions-widgets.php
+core/mtx-safe-wp-load.php     
+inc/theme-options/colors-options.php
+inc/theme-options/general-options.php
+inc/colors.php
+inc/functions-theme.php
+inc/jigoshop.php
+inc/shortcodes-woocommerce.php
+inc/woocommerce.php
+jigoshop/style.css
+js/jquery.custom.js    
+woocommerce/style.css
+page.php
+single.php
+slider.php
+style.css
+topbar.php
+woocomerce.php
+
+ADDED
+core/google-fonts.txt
+
+
+
+------------------ VER 1.2 ---------------
+Added: portfolio and gallery pages
+Fixed: a little issue with theme options tab general saving
+Fixed: price filter in menu navigation, when it's not used the woocommerce widget
+
+UPDATED
+gallery.php
+inc/functions-theme.php
+inc/metaboxes.php
+inc/post-types.php
+inc/theme-options/general-options.php
+inc/woocommerce.php
+loop-blog-big.php
+loop-blog-elegant.php
+loop-blog-small.php
+style.css
+taxonomy.php
+
+ADDED
+inc/infinity-portfolio.php
+inc/widgets/gallery_categories.php
+inc/widgets/more_projects.php
+inc/widgets/portfolio_categories.php
+loop-portfolio.php
+portfolio-3cols.php
+portfolio-big_image.php
+portfolio-filterable.php
+portfolio-slider.php
+portfolio.php
+sidebar-portfolio.php
+single-portfolio.php
+
+DELETED
+faq.php
+
+
+------------------ VER 1.1 ---------------  
+Added: style for the product variations
+Fixed: Installer Import/Export, to import the sample data in one click
+Fixed: bug with twitter feeds
+Fixed: bug of the map tab on IE8
+Fixed: some warnings shown in the LayersSliders
+
+UPDATE                              
+core/default-shortcodes/widgets.php
+core/functions-sliders.php           
+core/includes/js/jquery.tweetable.js
+core/theme-options/install/install.php
+css/lessthen480.css
+css/lessthen600.css  
+inc/LayerSlider/layerslider.php
+inc/LayerSlider/settings.php
+images/icons/widget/bulb.png
+images/icons/widget/calc.png     
+images/icons/widget/heart.png  
+jigoshop/style.css     
+js/jquery.custom.js
+inc/fonts.php       
+woocommerce/style.css
+ChangeLog.txt
+style.css
+header.php
+
+ADDED
+images/icons/widget/browser.png
+images/icons/widget/calendar.png
+images/icons/widget/card.png
+images/icons/widget/cert.png
+images/icons/widget/checkbox.png
+images/icons/widget/mail.png
+images/icons/widget/monitor.png
+images/icons/widget/notepad.png
+images/icons/widget/page_layout.png
+images/icons/widget/photo.png
+images/icons/widget/picture.png
+images/icons/widget/shop.png
+images/icons/widget/smile.png
+images/icons/widget/spech.png
+images/icons/widget/wrench.png   
+images/price.png          
+
+DELETED
+images/icons/old_icons          
+images/icons/old_socials  
+
+
+------------------ VER 1.0 ---------------
+Initial Release
